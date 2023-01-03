@@ -49,7 +49,7 @@ func main() {
 	apiEndpoint := "https://api.openai.com/v1/completions"
 
 	// Set the API key for your ChatGPT account
-	apiKey := "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"
+	apiKey := ""
 	if apiKey == "" {
 		fmt.Println ("API key is null, get it from https://beta.openai.com/account/api-keys")
 		os.Exit(-1)
